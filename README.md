@@ -38,22 +38,29 @@ Our pipeline was composed of **2 main steps**:
 #### KEY INSIGHTS
 
 The number of available listings follows a **seasonal pattern**, materialized by **significant peaks in summer holiday periods** (*time period: 2015.05 to 2019.11*).
+
 ![](https://raw.githubusercontent.com/gabrielleberanger/airbnb-visualization/master/graphs/hist-graph-evolution-of-the-number-of-listings.png)
 
 In the 1st and 2nd districts, **over 10% of total accommodations are rented on Airbnb** (*time period: 2019.11*).
+
 ![](https://raw.githubusercontent.com/gabrielleberanger/airbnb-visualization/master/graphs/lastm-map-percentage-of-listings-over-total-district-accommodations.png)
 
 Over **80%** of Airbnb rentals are **entire homes**. The greatest proportion of **hotel rooms** available on the website can be found in the 8th *arrondissement* (*time period: 2019.11*).
+
 ![](https://raw.githubusercontent.com/gabrielleberanger/airbnb-visualization/master/graphs/hist-graph-listing-types-per-district.png)
 
 **Central *arrondissements*** concentrate the greatest part of the **demand** (*time period: 2019.11*).
+
 ![](https://raw.githubusercontent.com/gabrielleberanger/airbnb-visualization/master/graphs/lastm-map-average-number-of-reviews-per-listing.png)
 
 Average prices per night range **from 80 to 240 euros**, the highest rates being found **around the Eiffel tower** (*time period: 2019.11*).
+
 ![](https://raw.githubusercontent.com/gabrielleberanger/airbnb-visualization/master/graphs/lastm-map-average-price-per-night.png)
 
 Airbnb **prices** have been **soaring since end-2017**, showing a change in the platform’s business model (*time period: 2015.05 - 2019.11*).
+
 ![](https://raw.githubusercontent.com/gabrielleberanger/airbnb-visualization/master/graphs/hist-graph-evolution-of-the-average-price-per-night.png)
 
 **Hotel rooms** were officially referenced on Airbnb from mid-2019, but the rise in prices observed within the **shared room category** indicates that they might have been present on the platform one year earlier (*time period: 2015.05 - 2019.11*).
+
 ![](https://raw.githubusercontent.com/gabrielleberanger/airbnb-visualization/master/graphs/hist-graph-evolution-of-the-average-price-per-night-per-type.png)
