@@ -27,7 +27,8 @@ To perform the below study, we relied on InsideAirbnb.com data. Our data provide
 Our pipeline was composed of **2 main steps**:
 
 - **STEP #1 - Data acquisition and preparation**
-	- Scrape [InsideAirbnb.com](http://insideairbnb.com/get-the-data.html) to get all `listings.csv` files (1 scraping per month, i.e. 48 files in total). I like to say that "*we scrapped the scrapper!*".
+	- Scrape [InsideAirbnb.com](http://insideairbnb.com/get-the-data.html) to get all `listings.csv` files (1 scraping per month, i.e. 48 files in total).
+	- [InsideAirbnb.com](http://insideairbnb.com/get-the-data.html) also provided us with a `neighbourhoods.geojson` file, so that we could map available data using the geographic coordinates of Paris *arrondissements*. 
 	- Create 2 Pandas DataFrames: `hist_df` (overall period) and `lastm_df` (last month period only). The code has been made in a way that if you re-scrape the data today, the program will be able to automatically select the last month from the scraping output.
 
 - **STEP #2 - Reporting**
