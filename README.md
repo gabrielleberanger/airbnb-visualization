@@ -28,7 +28,7 @@ Our pipeline was composed of **2 main steps**:
 
 - **STEP #1 - Data acquisition and preparation**
 	- Scrape InsideAirbnb.com to get all `listings.csv` files (1 scraping per month, i.e. 48 files in total). I like to say that "*we scrapped the scrapper!*".
-	- Create 2 tables: `hist_df` (overall period) and `lastm_df` (last month period only). The code has been made in a way that if you re-scrape the data today, the program will be able to automatically select update the last month from the scraping output.
+	- Create 2 Pandas DataFrames: `hist_df` (overall period) and `lastm_df` (last month period only). The code has been made in a way that if you re-scrape the data today, the program will be able to automatically select update the last month from the scraping output.
 
 - **STEP #2 - Reporting**
 	- Create *maps*
