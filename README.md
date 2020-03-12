@@ -1,4 +1,4 @@
-## Airbnb in Paris: a threat for hotels and housing availability?
+## Visualizing Airbnb listings in Paris and plotting geographic data
 
 *This project was completed as part of my cursus at Ironhack (a 9-week intensive coding bootcamp).*
 
