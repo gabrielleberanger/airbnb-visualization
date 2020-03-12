@@ -20,15 +20,15 @@ The municipal elections of March 2020 have reactivated the debate, and **additio
 
 #### WHAT IS THE DATASET?
 
-To perform the below study, we relied on InsideAirbnb.com. Our data provider has been **scraping the Airbnb websites of various big cities every month for several years**, and makes collected data publicly available on its platform. For the city of Paris, **available scraping outputs are available from May 2015 to November 2019**.
+To perform the below study, we relied on InsideAirbnb.com data. Our data provider has been **scraping the Airbnb websites of various big cities every month for several years**, and makes collected data publicly available on its platform. For the city of Paris, **available scraping outputs are available from May 2015 to November 2019**.
 
 #### METHODOLOGY
 
 Our pipeline was composed of **2 main steps**:
 
 - **STEP #1 - Data acquisition and preparation**
-	- Scrape InsideAirbnb.com to get all `listings.csv` files (1 scraping per month, i.e. 48 files in total). I like to say that "*we scrapped the scrapper!*".
-	- Create 2 Pandas DataFrames: `hist_df` (overall period) and `lastm_df` (last month period only). The code has been made in a way that if you re-scrape the data today, the program will be able to automatically select update the last month from the scraping output.
+	- Scrape [InsideAirbnb.com](http://insideairbnb.com/get-the-data.html) to get all `listings.csv` files (1 scraping per month, i.e. 48 files in total). I like to say that "*we scrapped the scrapper!*".
+	- Create 2 Pandas DataFrames: `hist_df` (overall period) and `lastm_df` (last month period only). The code has been made in a way that if you re-scrape the data today, the program will be able to automatically select the last month from the scraping output.
 
 - **STEP #2 - Reporting**
 	- Create *maps*
