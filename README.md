@@ -20,7 +20,7 @@ The municipal elections of March 2020 have reactivated the debate, and **additio
 
 #### WHAT IS THE DATASET?
 
-To perform the below study, we relied on InsideAirbnb.com data. Our data provider has been **scraping the Airbnb websites of various big cities every month for several years**, and makes collected data publicly available on its platform. For the city of Paris, **available scraping outputs are available from May 2015 to November 2019**.
+To perform the below study, we relied on InsideAirbnb.com data. Our data provider has been **scraping the Airbnb websites of various big cities every month for several years**, and makes collected data publicly available on its platform. For the city of Paris, **available scraping outputs range from May 2015 to November 2019**.
 
 #### METHODOLOGY
 
