@@ -65,3 +65,7 @@ Airbnb **prices** have been **soaring since end-2017**, showing a change in the 
 **Hotel rooms** were officially referenced on Airbnb from mid-2019, but the rise in prices observed within the **shared room category** indicates that they might have been present on the platform one year earlier (*time period: 2015.05 - 2019.11*).
 
 ![](https://raw.githubusercontent.com/gabrielleberanger/airbnb-visualization/master/graphs/hist-graph-evolution-of-the-average-price-per-night-per-type.png)
+
+#### MAIN LIBRARIES
+
+GeoPandas, Matplotlib, Seaborn, Requests, BeautifulSoup
